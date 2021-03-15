@@ -14,7 +14,7 @@ payload = {
 }
 token = jwt.encode(payload, METABASE_SECRET_KEY, algorithm="HS256")
 
-url = METABASE_SITE_URL + "/embed/dashboard/" + token.decode("utf8")
+url = METABASE_SITE_URL + "/embed/dashboard/" + token
 
 
 app = Flask(__name__)
