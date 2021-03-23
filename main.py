@@ -2,8 +2,8 @@ from flask import Flask,render_template
 import jwt
 import time
 
-METABASE_SITE_URL = "http://digicow-bi.us-east-1.elasticbeanstalk.com"
-METABASE_SECRET_KEY = "ec2db55539505aa56e66e5a4dc836d9d25707e46563ecee874a4fb6cce51b232"
+METABASE_SITE_URL = ""
+METABASE_SECRET_KEY = ""
 
 payload = {
   "resource": {"dashboard": 1},
